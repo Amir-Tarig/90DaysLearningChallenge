@@ -1,0 +1,18 @@
+.box {
+    width: 150px;
+  }
+  
+  .horizontal {
+    writing-mode: horizontal-tb;
+  }
+  
+  .vertical {
+    writing-mode: vertical-rl;
+  }
+
+  .box1 {
+    border: 1px solid #333333;
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+  }
