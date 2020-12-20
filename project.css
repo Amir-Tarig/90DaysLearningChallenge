@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Merriweather:wght@700&family=Rubik&family=Slabo+27px&family=Varela+Round&display=swap');
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /* Layout */
+
+  header h1 ,h2{
+    font-family: 'Merriweather', serif;
+    font-size: 3em;
+    letter-spacing: 2px;
+  }
+
+ 
+
+  h1 {
+      text-align: center;
+  }
+
+  section h2 + p {
+      text-indent: 2em;
+  }
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  } 
+
+  a {
+    color: #a66;
+  } 
+
+
+   a:focus , a:hover {
+      text-decoration: none;
+  }
+
+  a:focus {
+      outline: none;
+  }
+
+  a:active {
+      color: red;
+  }
+
+  ul , ol{
+      line-height: 1.5;
+  }
+
+  ul {
+      list-style-type: square;
+  }
+
+  
+  nav ul li{
+      border: 1px solid #a66;
+      margin-bottom: 1.5em;
+      padding: 2em;
+      text-align: center;
+      list-style: none;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      font-size: 1.5em;
+  }
+
+  aside li {
+      margin-bottom: 1em;
+  }
+  
