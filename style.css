@@ -17,6 +17,7 @@ body {
     background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
   }
   
   .card h2, .card p {
